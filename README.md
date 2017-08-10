@@ -11,15 +11,12 @@ following their tag convention.  Below is a list of currently available tags:
 | Tags | Environment |
 |------|-------------|
 | [latest][dockerfile-latest] | Node.js latest on Debian Jessie |
+| [8][dockerfile-8] | Node.js 7 latest on Debian Jessie |
 | [7][dockerfile-7] | Node.js 7 latest on Debian Jessie |
 | [wheezy][dockerfile-wheezy] | Node.js latest on Debian Wheezy |
 | [slim][dockerfile-slim] | Node.js latest on Debian Jessie |
 | [7-wheezy][dockerfile-7-wheezy] | Node.js 7 latest on Debian Wheezy |
 | [7-slim][dockerfile-7-slim] | Node.js 7 latest on Debian Jessie |
-| [6-wheezy][dockerfile-6-wheezy] | Node.js 6 latest on Debian Wheezy |
-| [6-slim][dockerfile-6-slim] | Node.js 6 latest on Debian Jessie |
-| [4-wheezy][dockerfile-4-wheezy] | Node.js 4 latest on Debian Wheezy |
-| [4-slim][dockerfile-4-slim] | Node.js 4 latest on Debian Jessie |
 
 
 ## Installing the Image
@@ -53,6 +50,7 @@ $ docker run \
 [docker_hub--url]: hub.docker.com
 [docker_hub_node--url]: https://hub.docker.com/_/node/
 [dockerfile-latest]: https://github.com/lavr/docker-node-build/blob/master/latest/Dockerfile
+[dockerfile-7]: https://github.com/lavr/docker-node-build/blob/master/8/Dockerfile
 [dockerfile-7]: https://github.com/lavr/docker-node-build/blob/master/7/Dockerfile
 [dockerfile-wheezy]: https://github.com/lavr/docker-node-build/blob/master/wheezy/Dockerfile
 [dockerfile-slim]: https://github.com/lavr/docker-node-build/blob/master/slim/Dockerfile
